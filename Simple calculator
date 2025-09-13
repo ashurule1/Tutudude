@@ -1,0 +1,18 @@
+a=int(input('Value1:  '))
+b=int(input('Value2:  '))
+operator = input('Enter operator (+,-,*,/): ' )
+addition=a+b
+subtraction=a-b
+multiplication=a*b
+division=a/b
+if operator == '+':
+    print('Addition:',addition)
+elif operator== '-':
+     print('Subtraction',subtraction)
+elif operator== '*':
+     print('multiplication',multiplication)
+elif operator== '/':
+    print('Division',division)
+else :
+    print('NONE')
+
