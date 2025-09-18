@@ -1,0 +1,8 @@
+from math import sqrt
+from math import log
+from math import sin
+
+number = int(input("Enter a number: "))
+print(f"The square root of {number} is:", sqrt(number))
+print(f"log of {number} is:", log(number))
+print(f"sin of {number} is:", sin(number))
